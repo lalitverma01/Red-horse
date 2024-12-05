@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url(root.css);
+
+.bg-img {
+    background-image: url(../images/header-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    transition: all 300ms linear;
+}
+
+.min-vh-70 {
+    min-height: 80vh;
+}
+
+.w-588 {
+    max-width: 588px;
+}
+
+.w-547 {
+    max-width: 547px;
+}
+
+.hr::after {
+    content: "";
+    border: 1px solid #000000;
+    width: 87px;
+}
+
+.data {
+    opacity: 70%;
+}
+
+.ml-5 {
+    margin-left: -6px;
+}
+
+.see-btn {
+    padding: 11px 24px 11px 24px;
+    border: 1px solid black;
+}
+
+.service-btn {
+    padding: 11px 24px 11px 24px;
+    border: 1px solid #090808
+}
+
+.name {
+    top: 90%;
+    left: 7%;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pr-10 {
+    padding-right: 119px;
+}
+
+.pr-100 {
+    padding-right: 70px;
+}
+
+.aspire {
+    top: 56.5%;
+    left: 6%;
+}
+
+.hoar {
+    top: 60%;
+    right: 10.3%;
+}
+
+.box {
+    max-width: 267px;
+    height: 267px;
+    border: 1px solid #0000004D;
+}
+
+.brain-svg {
+    left: 67%;
+    top: 7%;
+}
+
+.pl-10 {
+    padding-left: 10px;
+    padding-top: 75px;
+}
+
+.svg {
+    top: 67%;
+    right: 24.5%;
+    position: absolute;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+.pt-60 {
+    padding-top: 130px;
+    padding-left: 15px;
+}
+
+.name {
+    width: 100%;
+    height: 58px;
+    padding: 18px;
+    border: 1px solid #0000004D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .fs-64 {
+        font-size: 48px;
+    }
+}
