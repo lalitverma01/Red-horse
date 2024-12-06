@@ -7,10 +7,6 @@
     background-repeat: no-repeat;
 }
 
-.navbar-collapse {
-    flex-grow: 0 !important;
-}
-
 .nav-link:hover {
     transform: scale(1.2);
     transition: all 300ms linear;
@@ -20,12 +16,46 @@
     min-height: 80vh;
 }
 
+.play-btn {
+    right: 6%;
+    bottom: 2%;
+}
+
+.red-horse {
+    left: 43%;
+}
+
 .w-588 {
     max-width: 588px;
 }
 
 .w-547 {
     max-width: 547px;
+}
+
+.w-250 {
+    max-width: 250px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pr-10 {
+    padding-right: 119px;
+}
+
+.pr-100 {
+    padding-right: 70px;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+.pt-60 {
+    padding-top: 130px;
+    padding-left: 15px;
 }
 
 .hr::after {
@@ -57,16 +87,13 @@
     left: 7%;
 }
 
-.mt-60 {
+.bg-image {
+    background-image: url(../images/section-3-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 161px;
     margin-top: 60px;
-}
-
-.pr-10 {
-    padding-right: 119px;
-}
-
-.pr-100 {
-    padding-right: 70px;
 }
 
 .aspire {
@@ -82,7 +109,13 @@
 .box {
     max-width: 267px;
     height: 267px;
+    cursor: pointer;
     border: 1px solid #0000004D;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: all 400ms linear;
 }
 
 .brain-svg {
@@ -90,53 +123,72 @@
     top: 7%;
 }
 
-.pl-10 {
-    padding-left: 10px;
-    padding-top: 75px;
-}
-
 .svg {
     top: 67%;
-    right: 24.5%;
+    right: 24.3%;
     position: absolute;
 }
 
-.pl-60 {
-    padding-left: 60px;
+.svges {
+    cursor: pointer;
 }
 
-.pt-60 {
-    padding-top: 130px;
-    padding-left: 15px;
-}
-
-.name {
+input {
     width: 100%;
     height: 58px;
     padding: 18px;
     border: 1px solid #0000004D;
 }
 
+.message {
+    width: 100%;
+    padding: 18px 0px 122px 18px;
+    border: 1px solid #0000004D;
+}
 
+.box-1 {
+    border: 1px solid #FFFFFF4D;
+    width: 35px;
+    height: 35px;
+    padding: 10.67px 10.06px 9.33px 10.67px;
+}
 
+.text-justify {
+    text-align: justify;
+}
 
+.submit-btn {
+    padding: 11px 24px 11px 24px;
+    border: 1px solid #090808;
+}
 
+.pr-50 {
+    padding-right: 70px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.word-spacing {
+    word-spacing: 10px;
+}
 
 @media (max-width:576px) {
     .fs-64 {
         font-size: 48px;
+    }
+
+    .fs-48 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:992) {
+    .pr-50 {
+        padding-right: 70px;
+    }
+}
+
+@media (max-width:992px) {
+    .red-horse {
+        position: absolute;
+        left: 0%;
     }
 }
