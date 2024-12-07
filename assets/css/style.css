@@ -96,6 +96,10 @@
     margin-top: 60px;
 }
 
+.bg-image:hover {
+    background-image: url(../images/section-3-img.png);
+}
+
 .aspire {
     top: 56.5%;
     left: 6%;
